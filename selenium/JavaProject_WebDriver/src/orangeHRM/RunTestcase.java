@@ -9,7 +9,8 @@ public class RunTestcase {
 
 	public static void main(String[] args) throws InterruptedException 
 	{
-		
+	
+	// Intiating object for chrome driver class and open Url
 		System.setProperty("Webdriver.chrome.driver", "/JavaProject_WebDriver/External_Files");
         WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
