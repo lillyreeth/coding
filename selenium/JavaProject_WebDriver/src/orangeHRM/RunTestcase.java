@@ -21,9 +21,9 @@ public class RunTestcase {
 		// the below should work. but we got an error. therefore, we are adding "remote-allow-origins" options to allow connections
 		//WebDriver driver = new ChromeDriver();
 		
-		ChromeOptions options = new ChromeOptions();
+    	ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
-		WebDriver driver = new ChromeDriver(options);
+     	WebDriver driver = new ChromeDriver(options);
 		
 		
 		driver.manage().window().maximize();
