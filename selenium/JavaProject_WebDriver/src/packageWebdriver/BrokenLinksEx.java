@@ -66,7 +66,7 @@ public class BrokenLinksEx {
 
 			} else
 				System.out.println(url + "----> is valid link");
-			}
+		
 		}
 		Thread.sleep(3000);
 
@@ -74,4 +74,5 @@ public class BrokenLinksEx {
 
 	}
 
+	}
 }
