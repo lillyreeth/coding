@@ -22,16 +22,7 @@ public class FileDownloadFireFox {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//a[@id='link-to-download']")).click();
 		Thread.sleep(2000);
-		
-		
-		
 		driver.quit();
 		
-		
-		
-		
-		
-
 	}
-
-}
+} 

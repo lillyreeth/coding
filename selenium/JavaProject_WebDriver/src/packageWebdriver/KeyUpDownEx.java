@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 
 public class KeyUpDownEx {
@@ -25,12 +26,17 @@ public class KeyUpDownEx {
 		Thread.sleep(3000);
 		WebElement text=driver.findElement(By.xpath("//input[@id='email']"));
 		Actions act=new Actions(driver);
-		
-		
+				
 		//text.sendKeys("Ilford london");
 		act.keyDown(text, Keys.SHIFT).sendKeys("ilford").build().perform();
 		Thread.sleep(2000);
 		act.keyUp(text,Keys.SHIFT).sendKeys("london").build().perform();
+		
+		
+	 
+		
+		
+		
 		
 		Thread.sleep(2000);
 		driver.quit();
