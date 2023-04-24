@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test name="parameterstest1">
+        <parameter name="browser" value="firefox"></parameter>
+        <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
+        <classes>
+            <class name="ParametersEx"></class>
+        </classes>
+    </test>
+
+
+    <test name="parameterstest2">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
+        <classes>
+            <class name="ParametersEx"></class>
+        </classes>
+    </test>
+
+</suite>

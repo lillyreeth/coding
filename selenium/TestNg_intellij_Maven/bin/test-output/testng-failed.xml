@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestNg_intellij_Maven(failed)">
+    <classes>
+      <class name="AssertionsEx">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="titleTest"/>
+        </methods>
+      </class> <!-- AssertionsEx -->
+    </classes>
+  </test> <!-- TestNg_intellij_Maven(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
