@@ -56,7 +56,7 @@ public class SignUpPage extends TestBase
         PageFactory.initElements(driver,this);
 
     }
-    public void enterInfo( String title,
+    public SignUpAccountCreatedPage enterInfo( String title,
                            String password,
                            String day,
                            String month,
@@ -70,29 +70,34 @@ public class SignUpPage extends TestBase
                            String state,
                            String city,
                            String zipcode,
-                           String mobileno)
-    {
-        this.password.sendKeys("");
+                           String mobileno) throws InterruptedException {
+        this.password.sendKeys(password);
         Select sel_day=new Select(this.day);
         sel_day.selectByVisibleText(day);
-        Select sel_month=new Select(this.month);
-        sel_day.selectByVisibleText(month);
+        Thread.sleep(2000);
+        Select sel_month = new Select(this.month);
+        sel_month.selectByVisibleText(month);
         Select sel_year=new Select(this.year);
-        sel_day.selectByVisibleText(year);
+        sel_year.selectByVisibleText(year);
         checkbox1.click();
         checkbox2.click();
-        this.firstname.sendKeys();
-        this.lastname.sendKeys();
-        this.company.sendKeys();
-        this.address1.sendKeys();
-        this.address2.sendKeys();
-        Select sel=new Select(this.country);
-        sel.selectByVisibleText(country);
-        this.state.sendKeys();
-        this.city.sendKeys();
-        this.zipcode.sendKeys();
-        this.mobileno.sendKeys();
-        this.creataccount_button.click();
+        this.firstname.sendKeys(firstname);
+        this.lastname.sendKeys(lastname);
+        this.company.sendKeys(company);
+        this.address1.sendKeys(address1);
+        this.address2.sendKeys(address2);
+        Thread.sleep(2000);
+        Select sel_country=new Select(this.country);
+        Thread.sleep(2000);
+        sel_country.selectByVisibleText(country);
+        Thread.sleep(2000);
+        this.state.sendKeys(state);
+        this.city.sendKeys(city);
+        this.zipcode.sendKeys(zipcode);
+        this.mobileno.sendKeys(mobileno);
+        Thread.sleep(2000);
+        creataccount_button.click();
+        return new SignUpAccountCreatedPage();
 
     }
 

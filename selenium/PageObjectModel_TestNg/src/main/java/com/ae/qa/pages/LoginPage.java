@@ -14,7 +14,6 @@ public class LoginPage extends TestBase {
     WebElement password;
     @FindBy(xpath = "//button[contains(text(),'Login')]")
     WebElement login_button;
-
     @FindBy(xpath = "//input[@placeholder='Name']")
     WebElement signup_name;
     @FindBy(xpath = "//div[@class='signup-form']//input[@placeholder='Email Address']")
@@ -22,21 +21,23 @@ public class LoginPage extends TestBase {
     @FindBy(xpath = "//button[contains(text(),'Signup')]")
     WebElement signup_button;
 
-    public LoginPage() {
+    public LoginPage()
+    {
         System.out.println("This is loginpage/signuppage constructor");
         PageFactory.initElements(driver, this);
     }
 
-    public String getLoginpageTitle() {
+    public String getLoginpageTitle()
+    {
         return driver.getTitle();
     }
 
-    public HomePage login(String email, String pswrd) {
-
+    public UserHomePage login(String email, String pswrd)
+    {
         user_email.sendKeys(email);
         password.sendKeys(pswrd);
         login_button.click();
-        return new HomePage();
+        return new UserHomePage();
 
     }
 

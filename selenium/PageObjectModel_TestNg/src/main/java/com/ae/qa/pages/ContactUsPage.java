@@ -1,6 +1,7 @@
 package com.ae.qa.pages;
 
 import com.ae.qa.base.TestBase;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -21,6 +22,9 @@ public class ContactUsPage extends TestBase
     WebElement contact_message;
     @FindBy(xpath="//input[@name='submit']")
     WebElement contact_submit;
+    @FindBy(xpath="//div[@class='status alert alert-success']")
+    WebElement contact_successmsg;
+
 
     public ContactUsPage()
     {
@@ -50,6 +54,7 @@ public class ContactUsPage extends TestBase
 
 
     }
+
 
 
 }
