@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="76" total="232" passed="156" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-02T21:47:15 BST" name="Automation Exercise - Test suite" finished-at="2023-05-02T21:55:35 BST" duration-ms="499926">
+    <groups>
+    </groups>
+    <test started-at="2023-05-02T21:47:15 BST" name="Test Case 1: Register User" finished-at="2023-05-02T21:47:45 BST" duration-ms="29732">
+      <class name="com.ae.qa.testcases.SignUpPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.SignUpPageTest@3f200884]" started-at="2023-05-02T21:47:15 BST" name="setUp" finished-at="2023-05-02T21:47:29 BST" duration-ms="13508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.SignUpPageTest@3f200884]" started-at="2023-05-02T21:47:29 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:47:29 BST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateSignUpH2()[pri:2, instance:com.ae.qa.testcases.SignUpPageTest@3f200884]" started-at="2023-05-02T21:47:29 BST" name="validateSignUpH2" finished-at="2023-05-02T21:47:29 BST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpH2 -->
+        <test-method signature="validateSignUpNewUser()[pri:3, instance:com.ae.qa.testcases.SignUpPageTest@3f200884]" started-at="2023-05-02T21:47:29 BST" name="validateSignUpNewUser" finished-at="2023-05-02T21:47:30 BST" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpNewUser -->
+        <test-method signature="validateSignUpAccountInfoH2()[pri:4, instance:com.ae.qa.testcases.SignUpPageTest@3f200884]" started-at="2023-05-02T21:47:30 BST" name="validateSignUpAccountInfoH2" finished-at="2023-05-02T21:47:30 BST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpAccountInfoH2 -->
+        <test-method signature="validateSignUp()[pri:5, instance:com.ae.qa.testcases.SignUpPageTest@3f200884]" started-at="2023-05-02T21:47:30 BST" name="validateSignUp" finished-at="2023-05-02T21:47:34 BST" duration-ms="4381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUp -->
+        <test-method signature="validateLoggedInUserName()[pri:6, instance:com.ae.qa.testcases.SignUpPageTest@3f200884]" started-at="2023-05-02T21:47:34 BST" name="validateLoggedInUserName" finished-at="2023-05-02T21:47:40 BST" duration-ms="6139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoggedInUserName -->
+        <test-method signature="validateDeleteAccount()[pri:7, instance:com.ae.qa.testcases.SignUpPageTest@3f200884]" started-at="2023-05-02T21:47:40 BST" name="validateDeleteAccount" finished-at="2023-05-02T21:47:41 BST" duration-ms="910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteAccount -->
+        <test-method signature="validateContinueDeletedButton()[pri:8, instance:com.ae.qa.testcases.SignUpPageTest@3f200884]" started-at="2023-05-02T21:47:41 BST" name="validateContinueDeletedButton" finished-at="2023-05-02T21:47:44 BST" duration-ms="2987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContinueDeletedButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.SignUpPageTest@3f200884]" started-at="2023-05-02T21:47:44 BST" name="tearDown" finished-at="2023-05-02T21:47:45 BST" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.SignUpPageTest -->
+    </test> <!-- Test Case 1: Register User -->
+    <test started-at="2023-05-02T21:47:45 BST" name="Test Case 1b: Re-register User - exclude user deletion" finished-at="2023-05-02T21:48:06 BST" duration-ms="20363">
+      <class name="com.ae.qa.testcases.SignUpPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.SignUpPageTest@29f69090]" started-at="2023-05-02T21:47:45 BST" name="setUp" finished-at="2023-05-02T21:47:54 BST" duration-ms="8366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.SignUpPageTest@29f69090]" started-at="2023-05-02T21:47:54 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:47:54 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateSignUpH2()[pri:2, instance:com.ae.qa.testcases.SignUpPageTest@29f69090]" started-at="2023-05-02T21:47:54 BST" name="validateSignUpH2" finished-at="2023-05-02T21:47:54 BST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpH2 -->
+        <test-method signature="validateSignUpNewUser()[pri:3, instance:com.ae.qa.testcases.SignUpPageTest@29f69090]" started-at="2023-05-02T21:47:54 BST" name="validateSignUpNewUser" finished-at="2023-05-02T21:47:54 BST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpNewUser -->
+        <test-method signature="validateSignUpAccountInfoH2()[pri:4, instance:com.ae.qa.testcases.SignUpPageTest@29f69090]" started-at="2023-05-02T21:47:54 BST" name="validateSignUpAccountInfoH2" finished-at="2023-05-02T21:47:54 BST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpAccountInfoH2 -->
+        <test-method signature="validateSignUp()[pri:5, instance:com.ae.qa.testcases.SignUpPageTest@29f69090]" started-at="2023-05-02T21:47:54 BST" name="validateSignUp" finished-at="2023-05-02T21:47:58 BST" duration-ms="4299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUp -->
+        <test-method signature="validateLoggedInUserName()[pri:6, instance:com.ae.qa.testcases.SignUpPageTest@29f69090]" started-at="2023-05-02T21:47:58 BST" name="validateLoggedInUserName" finished-at="2023-05-02T21:48:05 BST" duration-ms="6302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoggedInUserName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.SignUpPageTest@29f69090]" started-at="2023-05-02T21:48:05 BST" name="tearDown" finished-at="2023-05-02T21:48:06 BST" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.SignUpPageTest -->
+    </test> <!-- Test Case 1b: Re-register User - exclude user deletion -->
+    <test started-at="2023-05-02T21:48:06 BST" name="Test Case 2: Login User with correct email and password " finished-at="2023-05-02T21:48:22 BST" duration-ms="16009">
+      <class name="com.ae.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.LoginPageTest@2145433b]" started-at="2023-05-02T21:48:06 BST" name="setUp" finished-at="2023-05-02T21:48:15 BST" duration-ms="9758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.LoginPageTest@2145433b]" started-at="2023-05-02T21:48:15 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:48:15 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateLoginH2()[pri:2, instance:com.ae.qa.testcases.LoginPageTest@2145433b]" started-at="2023-05-02T21:48:15 BST" name="validateLoginH2" finished-at="2023-05-02T21:48:15 BST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginH2 -->
+        <test-method signature="validateLoginWithValidDetails()[pri:3, instance:com.ae.qa.testcases.LoginPageTest@2145433b]" started-at="2023-05-02T21:48:15 BST" name="validateLoginWithValidDetails" finished-at="2023-05-02T21:48:18 BST" duration-ms="2846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithValidDetails -->
+        <test-method signature="validateDeletedAccount()[pri:4, instance:com.ae.qa.testcases.LoginPageTest@2145433b]" started-at="2023-05-02T21:48:18 BST" name="validateDeletedAccount" finished-at="2023-05-02T21:48:19 BST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeletedAccount -->
+        <test-method signature="validateContinueDeleteButton()[pri:5, instance:com.ae.qa.testcases.LoginPageTest@2145433b]" started-at="2023-05-02T21:48:19 BST" name="validateContinueDeleteButton" finished-at="2023-05-02T21:48:21 BST" duration-ms="2158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContinueDeleteButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.LoginPageTest@2145433b]" started-at="2023-05-02T21:48:21 BST" name="tearDown" finished-at="2023-05-02T21:48:22 BST" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.LoginPageTest -->
+    </test> <!-- Test Case 2: Login User with correct email and password  -->
+    <test started-at="2023-05-02T21:48:22 BST" name="Test Case 2b: Re-register User - exclude user deletion" finished-at="2023-05-02T21:48:48 BST" duration-ms="25950">
+      <class name="com.ae.qa.testcases.SignUpPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.SignUpPageTest@105fece7]" started-at="2023-05-02T21:48:22 BST" name="setUp" finished-at="2023-05-02T21:48:34 BST" duration-ms="12383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.SignUpPageTest@105fece7]" started-at="2023-05-02T21:48:34 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:48:34 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateSignUpH2()[pri:2, instance:com.ae.qa.testcases.SignUpPageTest@105fece7]" started-at="2023-05-02T21:48:34 BST" name="validateSignUpH2" finished-at="2023-05-02T21:48:34 BST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpH2 -->
+        <test-method signature="validateSignUpNewUser()[pri:3, instance:com.ae.qa.testcases.SignUpPageTest@105fece7]" started-at="2023-05-02T21:48:34 BST" name="validateSignUpNewUser" finished-at="2023-05-02T21:48:35 BST" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpNewUser -->
+        <test-method signature="validateSignUpAccountInfoH2()[pri:4, instance:com.ae.qa.testcases.SignUpPageTest@105fece7]" started-at="2023-05-02T21:48:35 BST" name="validateSignUpAccountInfoH2" finished-at="2023-05-02T21:48:35 BST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpAccountInfoH2 -->
+        <test-method signature="validateSignUp()[pri:5, instance:com.ae.qa.testcases.SignUpPageTest@105fece7]" started-at="2023-05-02T21:48:35 BST" name="validateSignUp" finished-at="2023-05-02T21:48:39 BST" duration-ms="4339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUp -->
+        <test-method signature="validateLoggedInUserName()[pri:6, instance:com.ae.qa.testcases.SignUpPageTest@105fece7]" started-at="2023-05-02T21:48:39 BST" name="validateLoggedInUserName" finished-at="2023-05-02T21:48:47 BST" duration-ms="7470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoggedInUserName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.SignUpPageTest@105fece7]" started-at="2023-05-02T21:48:47 BST" name="tearDown" finished-at="2023-05-02T21:48:48 BST" duration-ms="804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.SignUpPageTest -->
+    </test> <!-- Test Case 2b: Re-register User - exclude user deletion -->
+    <test started-at="2023-05-02T21:48:48 BST" name="Test Case 3: Login User with incorrect email and password" finished-at="2023-05-02T21:48:57 BST" duration-ms="9862">
+      <class name="com.ae.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.LoginPageTest@5b0abc94]" started-at="2023-05-02T21:48:48 BST" name="setUp" finished-at="2023-05-02T21:48:56 BST" duration-ms="8448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.LoginPageTest@5b0abc94]" started-at="2023-05-02T21:48:56 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:48:56 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateLoginH2()[pri:2, instance:com.ae.qa.testcases.LoginPageTest@5b0abc94]" started-at="2023-05-02T21:48:56 BST" name="validateLoginH2" finished-at="2023-05-02T21:48:56 BST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginH2 -->
+        <test-method signature="validateLoginWithInValidDetails()[pri:3, instance:com.ae.qa.testcases.LoginPageTest@5b0abc94]" started-at="2023-05-02T21:48:56 BST" name="validateLoginWithInValidDetails" finished-at="2023-05-02T21:48:57 BST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithInValidDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.LoginPageTest@5b0abc94]" started-at="2023-05-02T21:48:57 BST" name="tearDown" finished-at="2023-05-02T21:48:57 BST" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.LoginPageTest -->
+    </test> <!-- Test Case 3: Login User with incorrect email and password -->
+    <test started-at="2023-05-02T21:48:58 BST" name="Test Case 4: Logout User" finished-at="2023-05-02T21:49:15 BST" duration-ms="17256">
+      <class name="com.ae.qa.testcases.UserHomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.UserHomePageTest@2c34f934]" started-at="2023-05-02T21:48:58 BST" name="setUp" finished-at="2023-05-02T21:49:09 BST" duration-ms="11441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.UserHomePageTest@2c34f934]" started-at="2023-05-02T21:49:09 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:49:09 BST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateLoginLink()[pri:2, instance:com.ae.qa.testcases.UserHomePageTest@2c34f934]" started-at="2023-05-02T21:49:09 BST" name="validateLoginLink" finished-at="2023-05-02T21:49:10 BST" duration-ms="849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginLink -->
+        <test-method signature="validateLoginInfoH2()[pri:3, instance:com.ae.qa.testcases.UserHomePageTest@2c34f934]" started-at="2023-05-02T21:49:10 BST" name="validateLoginInfoH2" finished-at="2023-05-02T21:49:10 BST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginInfoH2 -->
+        <test-method signature="validateLoginWithValidData()[pri:4, instance:com.ae.qa.testcases.UserHomePageTest@2c34f934]" started-at="2023-05-02T21:49:10 BST" name="validateLoginWithValidData" finished-at="2023-05-02T21:49:13 BST" duration-ms="3529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithValidData -->
+        <test-method signature="validateLoggedInUserName()[pri:5, instance:com.ae.qa.testcases.UserHomePageTest@2c34f934]" started-at="2023-05-02T21:49:13 BST" name="validateLoggedInUserName" finished-at="2023-05-02T21:49:13 BST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoggedInUserName -->
+        <test-method signature="validateLogoutButton()[pri:6, instance:com.ae.qa.testcases.UserHomePageTest@2c34f934]" started-at="2023-05-02T21:49:13 BST" name="validateLogoutButton" finished-at="2023-05-02T21:49:14 BST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoutButton -->
+        <test-method signature="verifyLoginPageTitle()[pri:7, instance:com.ae.qa.testcases.UserHomePageTest@2c34f934]" started-at="2023-05-02T21:49:14 BST" name="verifyLoginPageTitle" finished-at="2023-05-02T21:49:14 BST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.UserHomePageTest@2c34f934]" started-at="2023-05-02T21:49:14 BST" name="tearDown" finished-at="2023-05-02T21:49:15 BST" duration-ms="900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.UserHomePageTest -->
+    </test> <!-- Test Case 4: Logout User -->
+    <test started-at="2023-05-02T21:49:15 BST" name="Test Case 5: Register User with existing email" finished-at="2023-05-02T21:49:26 BST" duration-ms="11008">
+      <class name="com.ae.qa.testcases.SignUpPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.SignUpPageTest@2ed0fbae]" started-at="2023-05-02T21:49:15 BST" name="setUp" finished-at="2023-05-02T21:49:24 BST" duration-ms="9056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.SignUpPageTest@2ed0fbae]" started-at="2023-05-02T21:49:24 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:49:24 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateSignUpH2()[pri:2, instance:com.ae.qa.testcases.SignUpPageTest@2ed0fbae]" started-at="2023-05-02T21:49:24 BST" name="validateSignUpH2" finished-at="2023-05-02T21:49:24 BST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpH2 -->
+        <test-method signature="validateSignUpExistingUser()[pri:3, instance:com.ae.qa.testcases.SignUpPageTest@2ed0fbae]" started-at="2023-05-02T21:49:24 BST" name="validateSignUpExistingUser" finished-at="2023-05-02T21:49:25 BST" duration-ms="971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpExistingUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.SignUpPageTest@2ed0fbae]" started-at="2023-05-02T21:49:25 BST" name="tearDown" finished-at="2023-05-02T21:49:26 BST" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.SignUpPageTest -->
+    </test> <!-- Test Case 5: Register User with existing email -->
+    <test started-at="2023-05-02T21:49:26 BST" name="Test Case 6: Contact Us Form" finished-at="2023-05-02T21:49:39 BST" duration-ms="13695">
+      <class name="com.ae.qa.testcases.ContactUsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.ContactUsPageTest@1d548a08]" started-at="2023-05-02T21:49:26 BST" name="setUp" finished-at="2023-05-02T21:49:34 BST" duration-ms="8465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:0, instance:com.ae.qa.testcases.ContactUsPageTest@1d548a08]" started-at="2023-05-02T21:49:34 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:49:34 BST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateContactUsLink()[pri:1, instance:com.ae.qa.testcases.ContactUsPageTest@1d548a08]" started-at="2023-05-02T21:49:34 BST" name="validateContactUsLink" finished-at="2023-05-02T21:49:35 BST" duration-ms="958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactUsLink -->
+        <test-method signature="validateContactUsH2()[pri:2, instance:com.ae.qa.testcases.ContactUsPageTest@1d548a08]" started-at="2023-05-02T21:49:35 BST" name="validateContactUsH2" finished-at="2023-05-02T21:49:35 BST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactUsH2 -->
+        <test-method signature="validateContactusForm()[pri:3, instance:com.ae.qa.testcases.ContactUsPageTest@1d548a08]" started-at="2023-05-02T21:49:35 BST" name="validateContactusForm" finished-at="2023-05-02T21:49:36 BST" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactusForm -->
+        <test-method signature="validateGetInTouchH2()[pri:4, instance:com.ae.qa.testcases.ContactUsPageTest@1d548a08]" started-at="2023-05-02T21:49:36 BST" name="validateGetInTouchH2" finished-at="2023-05-02T21:49:36 BST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetInTouchH2 -->
+        <test-method signature="validateHomeButton()[pri:5, instance:com.ae.qa.testcases.ContactUsPageTest@1d548a08]" started-at="2023-05-02T21:49:36 BST" name="validateHomeButton" finished-at="2023-05-02T21:49:39 BST" duration-ms="2627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomeButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.ContactUsPageTest@1d548a08]" started-at="2023-05-02T21:49:39 BST" name="tearDown" finished-at="2023-05-02T21:49:39 BST" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.ContactUsPageTest -->
+    </test> <!-- Test Case 6: Contact Us Form -->
+    <test started-at="2023-05-02T21:49:39 BST" name="Test Case 7: Verify Test Cases Page" finished-at="2023-05-02T21:49:53 BST" duration-ms="13362">
+      <class name="com.ae.qa.testcases.TestCasesPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.TestCasesPageTest@2d9d4f9d]" started-at="2023-05-02T21:49:39 BST" name="setUp" finished-at="2023-05-02T21:49:51 BST" duration-ms="11598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.TestCasesPageTest@2d9d4f9d]" started-at="2023-05-02T21:49:51 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:49:51 BST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateTestCasesLink()[pri:2, instance:com.ae.qa.testcases.TestCasesPageTest@2d9d4f9d]" started-at="2023-05-02T21:49:51 BST" name="validateTestCasesLink" finished-at="2023-05-02T21:49:52 BST" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTestCasesLink -->
+        <test-method signature="validateTestCasesHeading()[pri:4, instance:com.ae.qa.testcases.TestCasesPageTest@2d9d4f9d]" started-at="2023-05-02T21:49:52 BST" name="validateTestCasesHeading" finished-at="2023-05-02T21:49:52 BST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTestCasesHeading -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.TestCasesPageTest@2d9d4f9d]" started-at="2023-05-02T21:49:52 BST" name="tearDown" finished-at="2023-05-02T21:49:53 BST" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.TestCasesPageTest -->
+    </test> <!-- Test Case 7: Verify Test Cases Page -->
+    <test started-at="2023-05-02T21:49:53 BST" name="Test Case 8: Verify All Products and product detail page" finished-at="2023-05-02T21:50:11 BST" duration-ms="17206">
+      <class name="com.ae.qa.testcases.ProductsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.ProductsPageTest@3b938003]" started-at="2023-05-02T21:49:53 BST" name="setUp" finished-at="2023-05-02T21:50:03 BST" duration-ms="9339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.ProductsPageTest@3b938003]" started-at="2023-05-02T21:50:03 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:50:03 BST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateProductsLink()[pri:2, instance:com.ae.qa.testcases.ProductsPageTest@3b938003]" started-at="2023-05-02T21:50:03 BST" name="validateProductsLink" finished-at="2023-05-02T21:50:08 BST" duration-ms="5231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductsLink -->
+        <test-method signature="validateProductsDetailsNavigation()[pri:3, instance:com.ae.qa.testcases.ProductsPageTest@3b938003]" started-at="2023-05-02T21:50:08 BST" name="validateProductsDetailsNavigation" finished-at="2023-05-02T21:50:09 BST" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductsDetailsNavigation -->
+        <test-method signature="validateProductAddToCartVisibility()[pri:4, instance:com.ae.qa.testcases.ProductsPageTest@3b938003]" started-at="2023-05-02T21:50:09 BST" name="validateProductAddToCartVisibility" finished-at="2023-05-02T21:50:09 BST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductAddToCartVisibility -->
+        <test-method signature="validateProductAvailableVisibility()[pri:4, instance:com.ae.qa.testcases.ProductsPageTest@3b938003]" started-at="2023-05-02T21:50:09 BST" name="validateProductAvailableVisibility" finished-at="2023-05-02T21:50:09 BST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductAvailableVisibility -->
+        <test-method signature="validateProductBrandVisibility()[pri:4, instance:com.ae.qa.testcases.ProductsPageTest@3b938003]" started-at="2023-05-02T21:50:09 BST" name="validateProductBrandVisibility" finished-at="2023-05-02T21:50:09 BST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductBrandVisibility -->
+        <test-method signature="validateProductCategortVisibility()[pri:4, instance:com.ae.qa.testcases.ProductsPageTest@3b938003]" started-at="2023-05-02T21:50:09 BST" name="validateProductCategortVisibility" finished-at="2023-05-02T21:50:09 BST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductCategortVisibility -->
+        <test-method signature="validateProductConditionVisibility()[pri:4, instance:com.ae.qa.testcases.ProductsPageTest@3b938003]" started-at="2023-05-02T21:50:09 BST" name="validateProductConditionVisibility" finished-at="2023-05-02T21:50:10 BST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductConditionVisibility -->
+        <test-method signature="validateProductNameVisibility()[pri:4, instance:com.ae.qa.testcases.ProductsPageTest@3b938003]" started-at="2023-05-02T21:50:10 BST" name="validateProductNameVisibility" finished-at="2023-05-02T21:50:10 BST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductNameVisibility -->
+        <test-method signature="validateProductPriceVisibility()[pri:4, instance:com.ae.qa.testcases.ProductsPageTest@3b938003]" started-at="2023-05-02T21:50:10 BST" name="validateProductPriceVisibility" finished-at="2023-05-02T21:50:10 BST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductPriceVisibility -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.ProductsPageTest@3b938003]" started-at="2023-05-02T21:50:10 BST" name="tearDown" finished-at="2023-05-02T21:50:11 BST" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.ProductsPageTest -->
+    </test> <!-- Test Case 8: Verify All Products and product detail page -->
+    <test started-at="2023-05-02T21:50:11 BST" name="Test Case 9: Search Product" finished-at="2023-05-02T21:50:24 BST" duration-ms="13363">
+      <class name="com.ae.qa.testcases.SearchProductsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.SearchProductsPageTest@475e586c]" started-at="2023-05-02T21:50:11 BST" name="setUp" finished-at="2023-05-02T21:50:20 BST" duration-ms="9339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.SearchProductsPageTest@475e586c]" started-at="2023-05-02T21:50:20 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:50:20 BST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateProductsLink()[pri:2, instance:com.ae.qa.testcases.SearchProductsPageTest@475e586c]" started-at="2023-05-02T21:50:20 BST" name="validateProductsLink" finished-at="2023-05-02T21:50:22 BST" duration-ms="1686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductsLink -->
+        <test-method signature="validateSearchProductField()[pri:3, instance:com.ae.qa.testcases.SearchProductsPageTest@475e586c]" started-at="2023-05-02T21:50:22 BST" name="validateSearchProductField" finished-at="2023-05-02T21:50:23 BST" duration-ms="1221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchProductField -->
+        <test-method signature="validateSearchedProductsVisibility()[pri:4, instance:com.ae.qa.testcases.SearchProductsPageTest@475e586c]" started-at="2023-05-02T21:50:23 BST" name="validateSearchedProductsVisibility" finished-at="2023-05-02T21:50:23 BST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchedProductsVisibility -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.SearchProductsPageTest@475e586c]" started-at="2023-05-02T21:50:23 BST" name="tearDown" finished-at="2023-05-02T21:50:24 BST" duration-ms="986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.SearchProductsPageTest -->
+    </test> <!-- Test Case 9: Search Product -->
+    <test started-at="2023-05-02T21:50:24 BST" name="Test Case 10: Verify Subscription in home page" finished-at="2023-05-02T21:50:34 BST" duration-ms="9592">
+      <class name="com.ae.qa.testcases.WelcomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.WelcomePageTest@3c153a1]" started-at="2023-05-02T21:50:24 BST" name="setUp" finished-at="2023-05-02T21:50:32 BST" duration-ms="8103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:0, instance:com.ae.qa.testcases.WelcomePageTest@3c153a1]" started-at="2023-05-02T21:50:32 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:50:32 BST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateScrolldownGetSubscriptionH2()[pri:0, instance:com.ae.qa.testcases.WelcomePageTest@3c153a1]" started-at="2023-05-02T21:50:32 BST" name="validateScrolldownGetSubscriptionH2" finished-at="2023-05-02T21:50:32 BST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateScrolldownGetSubscriptionH2 -->
+        <test-method signature="validateSubscription()[pri:0, instance:com.ae.qa.testcases.WelcomePageTest@3c153a1]" started-at="2023-05-02T21:50:32 BST" name="validateSubscription" finished-at="2023-05-02T21:50:33 BST" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSubscription -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ae.qa.testcases.WelcomePageTest@3c153a1]" started-at="2023-05-02T21:50:33 BST" name="teardown" finished-at="2023-05-02T21:50:34 BST" duration-ms="896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ae.qa.testcases.WelcomePageTest -->
+    </test> <!-- Test Case 10: Verify Subscription in home page -->
+    <test started-at="2023-05-02T21:50:34 BST" name="Test Case 11: Verify Subscription in Cart page" finished-at="2023-05-02T21:50:44 BST" duration-ms="10575">
+      <class name="com.ae.qa.testcases.CartPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ae.qa.testcases.CartPageTest@60611244]" started-at="2023-05-02T21:50:34 BST" name="setup" finished-at="2023-05-02T21:50:43 BST" duration-ms="9209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateWelcomePageTitle()[pri:0, instance:com.ae.qa.testcases.CartPageTest@60611244]" started-at="2023-05-02T21:50:43 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:50:43 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateCartPageTitle()[pri:0, instance:com.ae.qa.testcases.CartPageTest@60611244]" started-at="2023-05-02T21:50:43 BST" name="validateCartPageTitle" finished-at="2023-05-02T21:50:43 BST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartPageTitle -->
+        <test-method signature="validateScrollDownGetSubscriptionH2()[pri:0, instance:com.ae.qa.testcases.CartPageTest@60611244]" started-at="2023-05-02T21:50:43 BST" name="validateScrollDownGetSubscriptionH2" finished-at="2023-05-02T21:50:43 BST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateScrollDownGetSubscriptionH2 -->
+        <test-method signature="validateCartSubscription()[pri:0, instance:com.ae.qa.testcases.CartPageTest@60611244]" started-at="2023-05-02T21:50:43 BST" name="validateCartSubscription" finished-at="2023-05-02T21:50:43 BST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartSubscription -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.CartPageTest@60611244]" started-at="2023-05-02T21:50:43 BST" name="tearDown" finished-at="2023-05-02T21:50:44 BST" duration-ms="922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.CartPageTest -->
+    </test> <!-- Test Case 11: Verify Subscription in Cart page -->
+    <test started-at="2023-05-02T21:50:44 BST" name="Test Case 12: Add Products in Cart" finished-at="2023-05-02T21:50:58 BST" duration-ms="14154">
+      <class name="com.ae.qa.testcases.ProductsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.ProductsPageTest@19d37183]" started-at="2023-05-02T21:50:44 BST" name="setUp" finished-at="2023-05-02T21:50:54 BST" duration-ms="9329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.ProductsPageTest@19d37183]" started-at="2023-05-02T21:50:54 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:50:54 BST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateProductsLink()[pri:2, instance:com.ae.qa.testcases.ProductsPageTest@19d37183]" started-at="2023-05-02T21:50:54 BST" name="validateProductsLink" finished-at="2023-05-02T21:50:56 BST" duration-ms="2507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductsLink -->
+        <test-method signature="validateAddToCartInProductPage()[pri:3, instance:com.ae.qa.testcases.ProductsPageTest@19d37183]" started-at="2023-05-02T21:50:56 BST" name="validateAddToCartInProductPage" finished-at="2023-05-02T21:50:57 BST" duration-ms="1320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddToCartInProductPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.ProductsPageTest@19d37183]" started-at="2023-05-02T21:50:57 BST" name="tearDown" finished-at="2023-05-02T21:50:58 BST" duration-ms="974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.ProductsPageTest -->
+    </test> <!-- Test Case 12: Add Products in Cart -->
+    <test started-at="2023-05-02T21:50:58 BST" name="Test Case 13: Verify Product quantity in Cart" finished-at="2023-05-02T21:51:16 BST" duration-ms="17769">
+      <class name="com.ae.qa.testcases.ProductsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.ProductsPageTest@d83da2e]" started-at="2023-05-02T21:50:58 BST" name="setUp" finished-at="2023-05-02T21:51:10 BST" duration-ms="11815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.ProductsPageTest@d83da2e]" started-at="2023-05-02T21:51:10 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:51:10 BST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateProductsLink()[pri:2, instance:com.ae.qa.testcases.ProductsPageTest@d83da2e]" started-at="2023-05-02T21:51:10 BST" name="validateProductsLink" finished-at="2023-05-02T21:51:13 BST" duration-ms="3080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductsLink -->
+        <test-method signature="validateProductsDetailsNavigation()[pri:3, instance:com.ae.qa.testcases.ProductsPageTest@d83da2e]" started-at="2023-05-02T21:51:13 BST" name="validateProductsDetailsNavigation" finished-at="2023-05-02T21:51:14 BST" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductsDetailsNavigation -->
+        <test-method signature="validateIncreaseQuantityInProductDetailsPage()[pri:4, instance:com.ae.qa.testcases.ProductsPageTest@d83da2e]" started-at="2023-05-02T21:51:14 BST" name="validateIncreaseQuantityInProductDetailsPage" finished-at="2023-05-02T21:51:15 BST" duration-ms="1063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIncreaseQuantityInProductDetailsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.ProductsPageTest@d83da2e]" started-at="2023-05-02T21:51:15 BST" name="tearDown" finished-at="2023-05-02T21:51:16 BST" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.ProductsPageTest -->
+    </test> <!-- Test Case 13: Verify Product quantity in Cart -->
+    <test started-at="2023-05-02T21:51:16 BST" name="Test Case 14a: To Delete user Account for next step" finished-at="2023-05-02T21:51:34 BST" duration-ms="18217">
+      <class name="com.ae.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.LoginPageTest@7a52f2a2]" started-at="2023-05-02T21:51:16 BST" name="setUp" finished-at="2023-05-02T21:51:25 BST" duration-ms="8446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.LoginPageTest@7a52f2a2]" started-at="2023-05-02T21:51:25 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:51:25 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateLoginH2()[pri:2, instance:com.ae.qa.testcases.LoginPageTest@7a52f2a2]" started-at="2023-05-02T21:51:25 BST" name="validateLoginH2" finished-at="2023-05-02T21:51:25 BST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginH2 -->
+        <test-method signature="validateLoginWithValidDetails()[pri:3, instance:com.ae.qa.testcases.LoginPageTest@7a52f2a2]" started-at="2023-05-02T21:51:25 BST" name="validateLoginWithValidDetails" finished-at="2023-05-02T21:51:27 BST" duration-ms="2583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithValidDetails -->
+        <test-method signature="validateDeletedAccount()[pri:4, instance:com.ae.qa.testcases.LoginPageTest@7a52f2a2]" started-at="2023-05-02T21:51:27 BST" name="validateDeletedAccount" finished-at="2023-05-02T21:51:28 BST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeletedAccount -->
+        <test-method signature="validateContinueDeleteButton()[pri:5, instance:com.ae.qa.testcases.LoginPageTest@7a52f2a2]" started-at="2023-05-02T21:51:28 BST" name="validateContinueDeleteButton" finished-at="2023-05-02T21:51:33 BST" duration-ms="5766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContinueDeleteButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.LoginPageTest@7a52f2a2]" started-at="2023-05-02T21:51:33 BST" name="tearDown" finished-at="2023-05-02T21:51:34 BST" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.LoginPageTest -->
+    </test> <!-- Test Case 14a: To Delete user Account for next step -->
+    <test started-at="2023-05-02T21:51:34 BST" name="Test Case 14: Place Order: Register while Checkout" finished-at="2023-05-02T21:52:14 BST" duration-ms="40017">
+      <class name="com.ae.qa.testcases.RegisterWhileCheckOutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@add0edd]" started-at="2023-05-02T21:51:34 BST" name="setUp" finished-at="2023-05-02T21:51:48 BST" duration-ms="13259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@add0edd]" started-at="2023-05-02T21:51:48 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:51:48 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateProductsLink()[pri:2, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@add0edd]" started-at="2023-05-02T21:51:48 BST" name="validateProductsLink" finished-at="2023-05-02T21:51:52 BST" duration-ms="4175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductsLink -->
+        <test-method signature="validateAddToCartInProductPage()[pri:3, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@add0edd]" started-at="2023-05-02T21:51:52 BST" name="validateAddToCartInProductPage" finished-at="2023-05-02T21:51:54 BST" duration-ms="1988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddToCartInProductPage -->
+        <test-method signature="validateSignUpNewUser()[pri:4, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@add0edd]" started-at="2023-05-02T21:51:54 BST" name="validateSignUpNewUser" finished-at="2023-05-02T21:51:55 BST" duration-ms="1003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpNewUser -->
+        <test-method signature="validateSignUp()[pri:5, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@add0edd]" started-at="2023-05-02T21:51:55 BST" name="validateSignUp" finished-at="2023-05-02T21:51:58 BST" duration-ms="3635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUp -->
+        <test-method signature="validateLoggedInUserName()[pri:6, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@add0edd]" started-at="2023-05-02T21:51:58 BST" name="validateLoggedInUserName" finished-at="2023-05-02T21:52:05 BST" duration-ms="6947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoggedInUserName -->
+        <test-method signature="validateProceedCheckout()[pri:7, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@add0edd]" started-at="2023-05-02T21:52:05 BST" name="validateProceedCheckout" finished-at="2023-05-02T21:52:08 BST" duration-ms="3085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProceedCheckout -->
+        <test-method signature="validateAddressVisibility()[pri:8, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@add0edd]" started-at="2023-05-02T21:52:08 BST" name="validateAddressVisibility" finished-at="2023-05-02T21:52:08 BST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddressVisibility -->
+        <test-method signature="validateOrderVisibility()[pri:8, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@add0edd]" started-at="2023-05-02T21:52:08 BST" name="validateOrderVisibility" finished-at="2023-05-02T21:52:08 BST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrderVisibility -->
+        <test-method signature="validatePlaceOrder()[pri:9, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@add0edd]" started-at="2023-05-02T21:52:08 BST" name="validatePlaceOrder" finished-at="2023-05-02T21:52:12 BST" duration-ms="3340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePlaceOrder -->
+        <test-method signature="validateDeleteAccount()[pri:10, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@add0edd]" started-at="2023-05-02T21:52:12 BST" name="validateDeleteAccount" finished-at="2023-05-02T21:52:13 BST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@add0edd]" started-at="2023-05-02T21:52:13 BST" name="tearDown" finished-at="2023-05-02T21:52:14 BST" duration-ms="1813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.RegisterWhileCheckOutTest -->
+    </test> <!-- Test Case 14: Place Order: Register while Checkout -->
+    <test started-at="2023-05-02T21:52:14 BST" name="Test Case 15: Place Order: Register before Checkout" finished-at="2023-05-02T21:52:44 BST" duration-ms="29274">
+      <class name="com.ae.qa.testcases.RegisterBeforeCheckOutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@78dd667e]" started-at="2023-05-02T21:52:14 BST" name="setUp" finished-at="2023-05-02T21:52:24 BST" duration-ms="9256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@78dd667e]" started-at="2023-05-02T21:52:24 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:52:24 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateSignUpH2()[pri:2, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@78dd667e]" started-at="2023-05-02T21:52:24 BST" name="validateSignUpH2" finished-at="2023-05-02T21:52:24 BST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpH2 -->
+        <test-method signature="validateSignUpNewUser()[pri:3, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@78dd667e]" started-at="2023-05-02T21:52:24 BST" name="validateSignUpNewUser" finished-at="2023-05-02T21:52:25 BST" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpNewUser -->
+        <test-method signature="validateSignUpAccountInfoH2()[pri:4, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@78dd667e]" started-at="2023-05-02T21:52:25 BST" name="validateSignUpAccountInfoH2" finished-at="2023-05-02T21:52:25 BST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpAccountInfoH2 -->
+        <test-method signature="validateSignUp()[pri:5, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@78dd667e]" started-at="2023-05-02T21:52:25 BST" name="validateSignUp" finished-at="2023-05-02T21:52:28 BST" duration-ms="3642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUp -->
+        <test-method signature="validateLoggedInUserName()[pri:6, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@78dd667e]" started-at="2023-05-02T21:52:28 BST" name="validateLoggedInUserName" finished-at="2023-05-02T21:52:34 BST" duration-ms="6148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoggedInUserName -->
+        <test-method signature="validateProductsLink()[pri:7, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@78dd667e]" started-at="2023-05-02T21:52:34 BST" name="validateProductsLink" finished-at="2023-05-02T21:52:38 BST" duration-ms="3556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductsLink -->
+        <test-method signature="validateAddToCartInProductPage()[pri:8, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@78dd667e]" started-at="2023-05-02T21:52:38 BST" name="validateAddToCartInProductPage" finished-at="2023-05-02T21:52:40 BST" duration-ms="1543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddToCartInProductPage -->
+        <test-method signature="validateAddressVisibility()[pri:9, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@78dd667e]" started-at="2023-05-02T21:52:40 BST" name="validateAddressVisibility" finished-at="2023-05-02T21:52:40 BST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddressVisibility -->
+        <test-method signature="validateOrderVisibility()[pri:9, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@78dd667e]" started-at="2023-05-02T21:52:40 BST" name="validateOrderVisibility" finished-at="2023-05-02T21:52:40 BST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrderVisibility -->
+        <test-method signature="validatePlaceOrder()[pri:10, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@78dd667e]" started-at="2023-05-02T21:52:40 BST" name="validatePlaceOrder" finished-at="2023-05-02T21:52:42 BST" duration-ms="2433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePlaceOrder -->
+        <test-method signature="validateDeleteAccount()[pri:12, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@78dd667e]" started-at="2023-05-02T21:52:42 BST" name="validateDeleteAccount" finished-at="2023-05-02T21:52:43 BST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@78dd667e]" started-at="2023-05-02T21:52:43 BST" name="tearDown" finished-at="2023-05-02T21:52:44 BST" duration-ms="896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.RegisterBeforeCheckOutTest -->
+    </test> <!-- Test Case 15: Place Order: Register before Checkout -->
+    <test started-at="2023-05-02T21:52:44 BST" name="Test Case 16a: Re-register User - exclude user deletion" finished-at="2023-05-02T21:53:06 BST" duration-ms="22010">
+      <class name="com.ae.qa.testcases.SignUpPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.SignUpPageTest@6b4a4e18]" started-at="2023-05-02T21:52:44 BST" name="setUp" finished-at="2023-05-02T21:52:54 BST" duration-ms="9871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateSignUpH2()[pri:2, instance:com.ae.qa.testcases.SignUpPageTest@6b4a4e18]" started-at="2023-05-02T21:52:54 BST" name="validateSignUpH2" finished-at="2023-05-02T21:52:54 BST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpH2 -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.SignUpPageTest@6b4a4e18]" started-at="2023-05-02T21:52:54 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:52:54 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateSignUpNewUser()[pri:3, instance:com.ae.qa.testcases.SignUpPageTest@6b4a4e18]" started-at="2023-05-02T21:52:54 BST" name="validateSignUpNewUser" finished-at="2023-05-02T21:52:54 BST" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpNewUser -->
+        <test-method signature="validateSignUpAccountInfoH2()[pri:4, instance:com.ae.qa.testcases.SignUpPageTest@6b4a4e18]" started-at="2023-05-02T21:52:54 BST" name="validateSignUpAccountInfoH2" finished-at="2023-05-02T21:52:54 BST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpAccountInfoH2 -->
+        <test-method signature="validateSignUp()[pri:5, instance:com.ae.qa.testcases.SignUpPageTest@6b4a4e18]" started-at="2023-05-02T21:52:54 BST" name="validateSignUp" finished-at="2023-05-02T21:52:58 BST" duration-ms="3572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUp -->
+        <test-method signature="validateLoggedInUserName()[pri:6, instance:com.ae.qa.testcases.SignUpPageTest@6b4a4e18]" started-at="2023-05-02T21:52:58 BST" name="validateLoggedInUserName" finished-at="2023-05-02T21:53:05 BST" duration-ms="7139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoggedInUserName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.SignUpPageTest@6b4a4e18]" started-at="2023-05-02T21:53:05 BST" name="tearDown" finished-at="2023-05-02T21:53:06 BST" duration-ms="884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.SignUpPageTest -->
+    </test> <!-- Test Case 16a: Re-register User - exclude user deletion -->
+    <test started-at="2023-05-02T21:53:06 BST" name="Test Case 16: Place Order: Login before Checkout" finished-at="2023-05-02T21:53:27 BST" duration-ms="20982">
+      <class name="com.ae.qa.testcases.LoginBeforeCheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.LoginBeforeCheckoutTest@1df82230]" started-at="2023-05-02T21:53:06 BST" name="setUp" finished-at="2023-05-02T21:53:15 BST" duration-ms="9704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.LoginBeforeCheckoutTest@1df82230]" started-at="2023-05-02T21:53:15 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:53:15 BST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateLoginWithValidDetails()[pri:2, instance:com.ae.qa.testcases.LoginBeforeCheckoutTest@1df82230]" started-at="2023-05-02T21:53:15 BST" name="validateLoginWithValidDetails" finished-at="2023-05-02T21:53:18 BST" duration-ms="2939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithValidDetails -->
+        <test-method signature="validateProductsLink()[pri:3, instance:com.ae.qa.testcases.LoginBeforeCheckoutTest@1df82230]" started-at="2023-05-02T21:53:18 BST" name="validateProductsLink" finished-at="2023-05-02T21:53:20 BST" duration-ms="1915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductsLink -->
+        <test-method signature="validateAddToCartInProductPage()[pri:4, instance:com.ae.qa.testcases.LoginBeforeCheckoutTest@1df82230]" started-at="2023-05-02T21:53:20 BST" name="validateAddToCartInProductPage" finished-at="2023-05-02T21:53:22 BST" duration-ms="2218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddToCartInProductPage -->
+        <test-method signature="validateAddressVisibility()[pri:5, instance:com.ae.qa.testcases.LoginBeforeCheckoutTest@1df82230]" started-at="2023-05-02T21:53:22 BST" name="validateAddressVisibility" finished-at="2023-05-02T21:53:22 BST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddressVisibility -->
+        <test-method signature="validateOrderVisibility()[pri:6, instance:com.ae.qa.testcases.LoginBeforeCheckoutTest@1df82230]" started-at="2023-05-02T21:53:22 BST" name="validateOrderVisibility" finished-at="2023-05-02T21:53:23 BST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrderVisibility -->
+        <test-method signature="validatePlaceOrder()[pri:7, instance:com.ae.qa.testcases.LoginBeforeCheckoutTest@1df82230]" started-at="2023-05-02T21:53:23 BST" name="validatePlaceOrder" finished-at="2023-05-02T21:53:25 BST" duration-ms="2506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePlaceOrder -->
+        <test-method signature="validateDeleteAccount()[pri:8, instance:com.ae.qa.testcases.LoginBeforeCheckoutTest@1df82230]" started-at="2023-05-02T21:53:25 BST" name="validateDeleteAccount" finished-at="2023-05-02T21:53:26 BST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.LoginBeforeCheckoutTest@1df82230]" started-at="2023-05-02T21:53:26 BST" name="tearDown" finished-at="2023-05-02T21:53:27 BST" duration-ms="888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.LoginBeforeCheckoutTest -->
+    </test> <!-- Test Case 16: Place Order: Login before Checkout -->
+    <test started-at="2023-05-02T21:53:27 BST" name="Test Case 17: Remove Products From Cart" finished-at="2023-05-02T21:53:40 BST" duration-ms="13118">
+      <class name="com.ae.qa.testcases.ProductsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.ProductsPageTest@5a955565]" started-at="2023-05-02T21:53:27 BST" name="setUp" finished-at="2023-05-02T21:53:36 BST" duration-ms="9031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.ProductsPageTest@5a955565]" started-at="2023-05-02T21:53:36 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:53:36 BST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateProductsLink()[pri:2, instance:com.ae.qa.testcases.ProductsPageTest@5a955565]" started-at="2023-05-02T21:53:36 BST" name="validateProductsLink" finished-at="2023-05-02T21:53:37 BST" duration-ms="1770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductsLink -->
+        <test-method signature="validateAddToCartInProductPage()[pri:3, instance:com.ae.qa.testcases.ProductsPageTest@5a955565]" started-at="2023-05-02T21:53:37 BST" name="validateAddToCartInProductPage" finished-at="2023-05-02T21:53:39 BST" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddToCartInProductPage -->
+        <test-method signature="validateDeleteFromCart()[pri:4, instance:com.ae.qa.testcases.ProductsPageTest@5a955565]" started-at="2023-05-02T21:53:39 BST" name="validateDeleteFromCart" finished-at="2023-05-02T21:53:39 BST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.ProductsPageTest@5a955565]" started-at="2023-05-02T21:53:39 BST" name="tearDown" finished-at="2023-05-02T21:53:40 BST" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.ProductsPageTest -->
+    </test> <!-- Test Case 17: Remove Products From Cart -->
+    <test started-at="2023-05-02T21:53:40 BST" name="Test Case 21: Add review on product" finished-at="2023-05-02T21:53:58 BST" duration-ms="17997">
+      <class name="com.ae.qa.testcases.ProductsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.ProductsPageTest@f8c1ddd]" started-at="2023-05-02T21:53:40 BST" name="setUp" finished-at="2023-05-02T21:53:48 BST" duration-ms="8519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.ProductsPageTest@f8c1ddd]" started-at="2023-05-02T21:53:48 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:53:48 BST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateProductsLink()[pri:2, instance:com.ae.qa.testcases.ProductsPageTest@f8c1ddd]" started-at="2023-05-02T21:53:48 BST" name="validateProductsLink" finished-at="2023-05-02T21:53:55 BST" duration-ms="6308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductsLink -->
+        <test-method signature="validateProductsDetailsNavigation()[pri:3, instance:com.ae.qa.testcases.ProductsPageTest@f8c1ddd]" started-at="2023-05-02T21:53:55 BST" name="validateProductsDetailsNavigation" finished-at="2023-05-02T21:53:56 BST" duration-ms="1630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductsDetailsNavigation -->
+        <test-method signature="validateReviewAboutProduct()[pri:4, instance:com.ae.qa.testcases.ProductsPageTest@f8c1ddd]" started-at="2023-05-02T21:53:56 BST" name="validateReviewAboutProduct" finished-at="2023-05-02T21:53:57 BST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateReviewAboutProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.ProductsPageTest@f8c1ddd]" started-at="2023-05-02T21:53:57 BST" name="tearDown" finished-at="2023-05-02T21:53:58 BST" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.ProductsPageTest -->
+    </test> <!-- Test Case 21: Add review on product -->
+    <test started-at="2023-05-02T21:53:58 BST" name="Test Case 23: Verify address details in checkout page" finished-at="2023-05-02T21:54:39 BST" duration-ms="40656">
+      <class name="com.ae.qa.testcases.RegisterWhileCheckOutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@23986957]" started-at="2023-05-02T21:53:58 BST" name="setUp" finished-at="2023-05-02T21:54:11 BST" duration-ms="13260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@23986957]" started-at="2023-05-02T21:54:11 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:54:11 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateProductsLink()[pri:2, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@23986957]" started-at="2023-05-02T21:54:11 BST" name="validateProductsLink" finished-at="2023-05-02T21:54:18 BST" duration-ms="6786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductsLink -->
+        <test-method signature="validateAddToCartInProductPage()[pri:3, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@23986957]" started-at="2023-05-02T21:54:18 BST" name="validateAddToCartInProductPage" finished-at="2023-05-02T21:54:22 BST" duration-ms="3891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddToCartInProductPage -->
+        <test-method signature="validateSignUpNewUser()[pri:4, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@23986957]" started-at="2023-05-02T21:54:22 BST" name="validateSignUpNewUser" finished-at="2023-05-02T21:54:23 BST" duration-ms="1057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpNewUser -->
+        <test-method signature="validateSignUp()[pri:5, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@23986957]" started-at="2023-05-02T21:54:23 BST" name="validateSignUp" finished-at="2023-05-02T21:54:27 BST" duration-ms="3553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUp -->
+        <test-method signature="validateLoggedInUserName()[pri:6, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@23986957]" started-at="2023-05-02T21:54:27 BST" name="validateLoggedInUserName" finished-at="2023-05-02T21:54:33 BST" duration-ms="6312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoggedInUserName -->
+        <test-method signature="validateProceedCheckout()[pri:7, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@23986957]" started-at="2023-05-02T21:54:33 BST" name="validateProceedCheckout" finished-at="2023-05-02T21:54:36 BST" duration-ms="3116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProceedCheckout -->
+        <test-method signature="validateAddressVisibility()[pri:8, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@23986957]" started-at="2023-05-02T21:54:36 BST" name="validateAddressVisibility" finished-at="2023-05-02T21:54:36 BST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddressVisibility -->
+        <test-method signature="validateOrderVisibility()[pri:8, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@23986957]" started-at="2023-05-02T21:54:36 BST" name="validateOrderVisibility" finished-at="2023-05-02T21:54:36 BST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrderVisibility -->
+        <test-method signature="validateBillingyAddress()[pri:9, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@23986957]" started-at="2023-05-02T21:54:36 BST" name="validateBillingyAddress" finished-at="2023-05-02T21:54:36 BST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBillingyAddress -->
+        <test-method signature="validateDeliveryAddress()[pri:9, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@23986957]" started-at="2023-05-02T21:54:36 BST" name="validateDeliveryAddress" finished-at="2023-05-02T21:54:36 BST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeliveryAddress -->
+        <test-method signature="validateDeleteAccount()[pri:10, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@23986957]" started-at="2023-05-02T21:54:36 BST" name="validateDeleteAccount" finished-at="2023-05-02T21:54:37 BST" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.RegisterWhileCheckOutTest@23986957]" started-at="2023-05-02T21:54:37 BST" name="tearDown" finished-at="2023-05-02T21:54:39 BST" duration-ms="1872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.RegisterWhileCheckOutTest -->
+    </test> <!-- Test Case 23: Verify address details in checkout page -->
+    <test started-at="2023-05-02T21:54:39 BST" name="Test Case 24: Download Invoice after purchase order" finished-at="2023-05-02T21:55:14 BST" duration-ms="35675">
+      <class name="com.ae.qa.testcases.RegisterBeforeCheckOutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@1d082e88]" started-at="2023-05-02T21:54:39 BST" name="setUp" finished-at="2023-05-02T21:54:48 BST" duration-ms="8929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:1, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@1d082e88]" started-at="2023-05-02T21:54:48 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:54:48 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateSignUpH2()[pri:2, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@1d082e88]" started-at="2023-05-02T21:54:48 BST" name="validateSignUpH2" finished-at="2023-05-02T21:54:48 BST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpH2 -->
+        <test-method signature="validateSignUpNewUser()[pri:3, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@1d082e88]" started-at="2023-05-02T21:54:48 BST" name="validateSignUpNewUser" finished-at="2023-05-02T21:54:48 BST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpNewUser -->
+        <test-method signature="validateSignUpAccountInfoH2()[pri:4, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@1d082e88]" started-at="2023-05-02T21:54:48 BST" name="validateSignUpAccountInfoH2" finished-at="2023-05-02T21:54:48 BST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpAccountInfoH2 -->
+        <test-method signature="validateSignUp()[pri:5, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@1d082e88]" started-at="2023-05-02T21:54:48 BST" name="validateSignUp" finished-at="2023-05-02T21:54:52 BST" duration-ms="3847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUp -->
+        <test-method signature="validateLoggedInUserName()[pri:6, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@1d082e88]" started-at="2023-05-02T21:54:52 BST" name="validateLoggedInUserName" finished-at="2023-05-02T21:54:59 BST" duration-ms="6810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoggedInUserName -->
+        <test-method signature="validateProductsLink()[pri:7, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@1d082e88]" started-at="2023-05-02T21:54:59 BST" name="validateProductsLink" finished-at="2023-05-02T21:55:02 BST" duration-ms="3054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductsLink -->
+        <test-method signature="validateAddToCartInProductPage()[pri:8, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@1d082e88]" started-at="2023-05-02T21:55:02 BST" name="validateAddToCartInProductPage" finished-at="2023-05-02T21:55:04 BST" duration-ms="2037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddToCartInProductPage -->
+        <test-method signature="validateAddressVisibility()[pri:9, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@1d082e88]" started-at="2023-05-02T21:55:04 BST" name="validateAddressVisibility" finished-at="2023-05-02T21:55:04 BST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddressVisibility -->
+        <test-method signature="validateOrderVisibility()[pri:9, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@1d082e88]" started-at="2023-05-02T21:55:04 BST" name="validateOrderVisibility" finished-at="2023-05-02T21:55:04 BST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrderVisibility -->
+        <test-method signature="validatePlaceOrder()[pri:10, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@1d082e88]" started-at="2023-05-02T21:55:04 BST" name="validatePlaceOrder" finished-at="2023-05-02T21:55:06 BST" duration-ms="2460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePlaceOrder -->
+        <test-method signature="validateDownloadInvoice()[pri:11, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@1d082e88]" started-at="2023-05-02T21:55:06 BST" name="validateDownloadInvoice" finished-at="2023-05-02T21:55:12 BST" duration-ms="5236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDownloadInvoice -->
+        <test-method signature="validateDeleteAccount()[pri:12, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@1d082e88]" started-at="2023-05-02T21:55:12 BST" name="validateDeleteAccount" finished-at="2023-05-02T21:55:12 BST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ae.qa.testcases.RegisterBeforeCheckOutTest@1d082e88]" started-at="2023-05-02T21:55:12 BST" name="tearDown" finished-at="2023-05-02T21:55:14 BST" duration-ms="1952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ae.qa.testcases.RegisterBeforeCheckOutTest -->
+    </test> <!-- Test Case 24: Download Invoice after purchase order -->
+    <test started-at="2023-05-02T21:55:14 BST" name="Test Case 25: Verify Scroll Up using &#039;Arrow&#039; button and Scroll Down functionality" finished-at="2023-05-02T21:55:25 BST" duration-ms="10444">
+      <class name="com.ae.qa.testcases.WelcomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.WelcomePageTest@7692d9cc]" started-at="2023-05-02T21:55:14 BST" name="setUp" finished-at="2023-05-02T21:55:23 BST" duration-ms="9058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:0, instance:com.ae.qa.testcases.WelcomePageTest@7692d9cc]" started-at="2023-05-02T21:55:23 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:55:23 BST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateScrolldownGetSubscriptionH2()[pri:0, instance:com.ae.qa.testcases.WelcomePageTest@7692d9cc]" started-at="2023-05-02T21:55:23 BST" name="validateScrolldownGetSubscriptionH2" finished-at="2023-05-02T21:55:23 BST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateScrolldownGetSubscriptionH2 -->
+        <test-method signature="validateScrollUpWithArrow()[pri:0, instance:com.ae.qa.testcases.WelcomePageTest@7692d9cc]" started-at="2023-05-02T21:55:23 BST" name="validateScrollUpWithArrow" finished-at="2023-05-02T21:55:24 BST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateScrollUpWithArrow -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ae.qa.testcases.WelcomePageTest@7692d9cc]" started-at="2023-05-02T21:55:24 BST" name="teardown" finished-at="2023-05-02T21:55:25 BST" duration-ms="961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ae.qa.testcases.WelcomePageTest -->
+    </test> <!-- Test Case 25: Verify Scroll Up using 'Arrow' button and Scroll Down functionality -->
+    <test started-at="2023-05-02T21:55:25 BST" name="Test Case 26: Verify Scroll Up without &#039;Arrow&#039; button and Scroll Down functionality" finished-at="2023-05-02T21:55:35 BST" duration-ms="10497">
+      <class name="com.ae.qa.testcases.WelcomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ae.qa.testcases.WelcomePageTest@23529fee]" started-at="2023-05-02T21:55:25 BST" name="setUp" finished-at="2023-05-02T21:55:34 BST" duration-ms="9218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWelcomePageTitle()[pri:0, instance:com.ae.qa.testcases.WelcomePageTest@23529fee]" started-at="2023-05-02T21:55:34 BST" name="validateWelcomePageTitle" finished-at="2023-05-02T21:55:34 BST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomePageTitle -->
+        <test-method signature="validateScrolldownGetSubscriptionH2()[pri:0, instance:com.ae.qa.testcases.WelcomePageTest@23529fee]" started-at="2023-05-02T21:55:34 BST" name="validateScrolldownGetSubscriptionH2" finished-at="2023-05-02T21:55:34 BST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateScrolldownGetSubscriptionH2 -->
+        <test-method signature="validateScrollUpWithoutArrow()[pri:0, instance:com.ae.qa.testcases.WelcomePageTest@23529fee]" started-at="2023-05-02T21:55:34 BST" name="validateScrollUpWithoutArrow" finished-at="2023-05-02T21:55:34 BST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateScrollUpWithoutArrow -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ae.qa.testcases.WelcomePageTest@23529fee]" started-at="2023-05-02T21:55:34 BST" name="teardown" finished-at="2023-05-02T21:55:35 BST" duration-ms="1054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ae.qa.testcases.WelcomePageTest -->
+    </test> <!-- Test Case 26: Verify Scroll Up without 'Arrow' button and Scroll Down functionality -->
+  </suite> <!-- Automation Exercise - Test suite -->
+</testng-results>

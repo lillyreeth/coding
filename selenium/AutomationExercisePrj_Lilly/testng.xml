@@ -1,0 +1,297 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Exercise Project - Test suite" verbose="1">
+
+    <test name="Test Case 1: Register User">
+        <classes>
+            <class name="com.ae.qa.testcases.SignUpPageTest">
+                <methods>
+                    <exclude name="validateSignUpExistingUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Test Case 1b: Re-register User - exclude user deletion">
+        <classes>
+            <class name="com.ae.qa.testcases.SignUpPageTest">
+                <methods>
+                    <exclude name="validateSignUpExistingUser"/>
+                    <exclude name="validateDeleteAccount"/>
+                    <exclude name="validateContinueDeletedButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 2: Login User with correct email and password ">
+        <classes>
+            <class name="com.ae.qa.testcases.LoginPageTest">
+                <methods>
+                    <exclude name="validateLoginWithInValidDetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Test Case 2b: Re-register User - exclude user deletion">
+        <classes>
+            <class name="com.ae.qa.testcases.SignUpPageTest">
+                <methods>
+                    <exclude name="validateSignUpExistingUser"/>
+                    <exclude name="validateDeleteAccount"/>
+                    <exclude name="validateContinueDeletedButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 3: Login User with incorrect email and password">
+        <classes>
+            <class name="com.ae.qa.testcases.LoginPageTest">
+                <methods>
+                    <include name="validateWelcomePageTitle"/>
+                    <include name="validateLoginH2"/>
+                    <include name="validateLoginWithInValidDetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 4: Logout User">
+        <classes>
+            <class name="com.ae.qa.testcases.UserHomePageTest">
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 5: Register User with existing email">
+        <classes>
+            <class name="com.ae.qa.testcases.SignUpPageTest">
+                <methods>
+                    <include name="validateWelcomePageTitle"/>
+                    <include name="validateSignUpH2"/>
+                    <include name="validateSignUpExistingUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 6: Contact Us Form">
+        <classes>
+            <class name="com.ae.qa.testcases.ContactUsPageTest"/>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 7: Verify Test Cases Page">
+        <classes>
+            <class name="com.ae.qa.testcases.TestCasesPageTest"/>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 8: Verify All Products and product detail page">
+        <classes>
+            <class name="com.ae.qa.testcases.ProductsPageTest">
+                <methods>
+                    <exclude name="validateAddToCartInProductPage"/>
+                    <exclude name="validateIncreaseQuantityInProductDetailsPage"/>
+                    <exclude name="validateDeleteFromCart"/>
+                    <exclude name="validateReviewAboutProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 9: Search Product">
+        <classes>
+            <class name="com.ae.qa.testcases.SearchProductsPageTest"/>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 10: Verify Subscription in home page">
+        <classes>
+            <class name="com.ae.qa.testcases.WelcomePageTest">
+                <methods>
+                    <include name="validateWelcomePageTitle"/>
+                    <include name="validateScrolldownGetSubscriptionH2"/>
+                    <include name="validateSubscription"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 11: Verify Subscription in Cart page">
+        <classes>
+            <class name="com.ae.qa.testcases.CartPageTest">
+                <methods>
+                    <include name="validateWelcomePageTitle"/>
+                    <include name="validateCartPageTitle"/>
+                    <include name="validateScrollDownGetSubscriptionH2"/>
+                    <include name="validateCartSubscription"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 12: Add Products in Cart">
+        <classes>
+            <class name="com.ae.qa.testcases.ProductsPageTest">
+                <methods>
+                    <include name="validateWelcomePageTitle"/>
+                    <include name="validateProductsLink"/>
+                    <include name="validateAddToCartInProductPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 13: Verify Product quantity in Cart">
+        <classes>
+            <class name="com.ae.qa.testcases.ProductsPageTest">
+                <methods>
+                    <include name="validateWelcomePageTitle"/>
+                    <include name="validateProductsLink"/>
+                    <include name="validateProductsDetailsNavigation"/>
+                    <include name="validateIncreaseQuantityInProductDetailsPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Test Case 14a: To Delete user Account for next step">
+        <classes>
+            <class name="com.ae.qa.testcases.LoginPageTest">
+                <methods>
+                    <exclude name="validateLoginWithInValidDetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 14: Place Order: Register while Checkout">
+        <classes>
+            <class name="com.ae.qa.testcases.RegisterWhileCheckOutTest">
+                <methods>
+                    <exclude name="validateDeliveryAddress"/>
+                    <exclude name="validateBillingyAddress"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 15: Place Order: Register before Checkout">
+        <classes>
+            <class name="com.ae.qa.testcases.RegisterBeforeCheckOutTest">
+                <methods>
+                    <exclude name="validateDownloadInvoice"/>
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+
+    <test name="Test Case 16a: Re-register User - exclude user deletion">
+        <classes>
+            <class name="com.ae.qa.testcases.SignUpPageTest">
+                <methods>
+                    <exclude name="validateSignUpExistingUser"/>
+                    <exclude name="validateDeleteAccount"/>
+                    <exclude name="validateContinueDeletedButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Test Case 16: Place Order: Login before Checkout">
+        <classes>
+            <class name="com.ae.qa.testcases.LoginBeforeCheckoutTest"/>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 17: Remove Products From Cart">
+        <classes>
+            <class name="com.ae.qa.testcases.ProductsPageTest">
+                <methods>
+                    <include name="validateWelcomePageTitle"/>
+                    <include name="validateProductsLink"/>
+                    <include name="validateAddToCartInProductPage"/>
+                    <include name="validateDeleteFromCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 21: Add review on product">
+        <classes>
+            <class name="com.ae.qa.testcases.ProductsPageTest">
+                <methods>
+                    <include name="validateWelcomePageTitle"/>
+                    <include name="validateProductsLink"/>
+                    <include name="validateProductsDetailsNavigation"/>
+                    <include name="validateReviewAboutProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Test Case 23: Verify address details in checkout page">
+        <classes>
+            <class name="com.ae.qa.testcases.RegisterWhileCheckOutTest">
+                <methods>
+                    <exclude name="validatePlaceOrder"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 24: Download Invoice after purchase order">
+        <classes>
+            <class name="com.ae.qa.testcases.RegisterBeforeCheckOutTest"/>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 25: Verify Scroll Up using 'Arrow' button and Scroll Down functionality">
+        <classes>
+            <class name="com.ae.qa.testcases.WelcomePageTest">
+                <methods>
+                    <include name="validateWelcomePageTitle"/>
+                    <include name="validateScrolldownGetSubscriptionH2"/>
+                    <include name="validateScrollUpWithArrow"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Test Case 26: Verify Scroll Up without 'Arrow' button and Scroll Down functionality">
+        <classes>
+            <class name="com.ae.qa.testcases.WelcomePageTest">
+                <methods>
+                    <include name="validateWelcomePageTitle"/>
+                    <include name="validateScrolldownGetSubscriptionH2"/>
+                    <include name="validateScrollUpWithoutArrow"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>

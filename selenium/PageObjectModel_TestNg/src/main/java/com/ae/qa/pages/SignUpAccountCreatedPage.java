@@ -1,6 +1,7 @@
 package com.ae.qa.pages;
 
 import com.ae.qa.base.TestBase;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -8,27 +9,26 @@ import org.openqa.selenium.support.PageFactory;
 public class SignUpAccountCreatedPage extends TestBase
 {
     @FindBy(xpath="//b[contains(text(),'Account Created!')]")
-    WebElement AccountCreated_h2;
+    WebElement webElementSignUpAccountCreatedH2;
     @FindBy(xpath="//a[contains(text(),'Continue')]")
-    WebElement continue_button;
+    WebElement webElementSignUpContinueButton;
 
 
-    public SignUpAccountCreatedPage()
-    {
+    public SignUpAccountCreatedPage(){
         System.out.println("This is SignUp AccountCreated Page constructor");
         PageFactory.initElements(driver,this);
     }
 
-    public String validate_accountCreated()
+    public String validateSignUpAccountCreatedHMessage()
     {
-       String heading= AccountCreated_h2.getText();
+       String heading= webElementSignUpAccountCreatedH2.getText();
        return heading;
 
     }
-    public UserHomePage continue_click()
+    public UserHomePage clickSignUpContinue()
     {
 
-        continue_button.click();
+        webElementSignUpContinueButton.click();
 
         try{
         Thread.sleep(3000);

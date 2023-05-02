@@ -1,33 +1,38 @@
 package com.ae.qa.pages;
 
 import com.ae.qa.base.TestBase;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import static com.ae.qa.util.TestUtil.EXPLICIT_WAIT;
 
 public class ContactUsGetInTouchPage extends TestBase
 {
     @FindBy(xpath="//div[@class='status alert alert-success']")
-    WebElement SuccessMsg;
+    WebElement webElementGetInTouchSuccessMessage;
     @FindBy(xpath="//span[contains(text(),'Home')]")
-    WebElement ReturnHome;
+    WebElement webElementGetInTouchHomeButton;
 
 
-   public ContactUsGetInTouchPage()
-   {
+   public ContactUsGetInTouchPage(){
        System.out.println("This is ContactUs GetInTouch Page constructor");
        PageFactory.initElements(driver, this);
 
    }
 
-   public String validateMsg()
+   public String getGetInTouchSuccessMessage()
    {
-       return SuccessMsg.getText();
+       EXPLICIT_WAIT.until(ExpectedConditions.visibilityOf(webElementGetInTouchSuccessMessage));
+       return webElementGetInTouchSuccessMessage.getText();
    }
 
-   public WelcomePage click_Home()
+   public WelcomePage clickGetInTouchHomeButton()
    {
-       ReturnHome.click();
+       EXPLICIT_WAIT.until(ExpectedConditions.visibilityOf(webElementGetInTouchHomeButton));
+       webElementGetInTouchHomeButton.click();
        return new WelcomePage();
    }
 
