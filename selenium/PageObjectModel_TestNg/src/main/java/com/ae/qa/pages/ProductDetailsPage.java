@@ -9,6 +9,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
+
 import static com.ae.qa.util.TestUtil.EXPLICIT_WAIT;
 
 public class ProductDetailsPage extends TestBase
@@ -114,7 +116,7 @@ public class ProductDetailsPage extends TestBase
         webElementReviewEmailInput.sendKeys(email);
         webElementReviewMessageInput.sendKeys(message);
         webElementReviewSubmit.click();
-        WebDriverWait wait1 = new WebDriverWait(driver, 20);
+        WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(10L));
         WebElement reviewSuccessMessage = wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'Thank you')]")));
         System.out.println("Successful message after review : " + reviewSuccessMessage.getText());
         return reviewSuccessMessage.getText();

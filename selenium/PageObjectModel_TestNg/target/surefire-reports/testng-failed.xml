@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.ae.qa.testcases.ContactUsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validateContactusForm"/>
+          <include name="validateGetInTouchH2"/>
+          <include name="validateHomeButton"/>
+        </methods>
+      </class> <!-- com.ae.qa.testcases.ContactUsPageTest -->
+      <class name="com.ae.qa.testcases.WelcomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="validateScrollUpWithArrow"/>
+        </methods>
+      </class> <!-- com.ae.qa.testcases.WelcomePageTest -->
+      <class name="com.ae.qa.testcases.RegisterBeforeCheckOutTest">
+        <methods>
+          <include name="validateAddressVisibility"/>
+          <include name="validateOrderVisibility"/>
+          <include name="validatePlaceOrder"/>
+          <include name="validateAddToCartInProductPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validateDownloadInvoice"/>
+        </methods>
+      </class> <!-- com.ae.qa.testcases.RegisterBeforeCheckOutTest -->
+      <class name="com.ae.qa.testcases.UserHomePageTest">
+        <methods>
+          <include name="validateLoggedInUserName"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validateLogoutButton"/>
+        </methods>
+      </class> <!-- com.ae.qa.testcases.UserHomePageTest -->
+      <class name="com.ae.qa.testcases.SignUpPageTest">
+        <methods>
+          <include name="validateSignUp"/>
+          <include name="setUp"/>
+          <include name="validateLoggedInUserName"/>
+          <include name="validateDeleteAccount"/>
+          <include name="tearDown"/>
+          <include name="validateSignUpNewUser"/>
+          <include name="validateSignUpAccountInfoH2"/>
+          <include name="validateContinueDeletedButton"/>
+          <include name="validateSignUpExistingUser"/>
+        </methods>
+      </class> <!-- com.ae.qa.testcases.SignUpPageTest -->
+      <class name="com.ae.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="validateDeletedAccount"/>
+          <include name="validateContinueDeleteButton"/>
+          <include name="setUp"/>
+          <include name="validateLoginWithValidDetails"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ae.qa.testcases.LoginPageTest -->
+      <class name="com.ae.qa.testcases.ProductsPageTest">
+        <methods>
+          <include name="validateProductAvailableVisibility"/>
+          <include name="validateProductConditionVisibility"/>
+          <include name="validateProductPriceVisibility"/>
+          <include name="validateReviewAboutProduct"/>
+          <include name="validateProductCategortVisibility"/>
+          <include name="validateProductNameVisibility"/>
+          <include name="validateProductBrandVisibility"/>
+          <include name="validateIncreaseQuantityInProductDetailsPage"/>
+          <include name="tearDown"/>
+          <include name="validateProductAddToCartVisibility"/>
+          <include name="validateDeleteFromCart"/>
+          <include name="validateProductsDetailsNavigation"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ae.qa.testcases.ProductsPageTest -->
+      <class name="com.ae.qa.testcases.LoginBeforeCheckoutTest">
+        <methods>
+          <include name="validateAddressVisibility"/>
+          <include name="tearDown"/>
+          <include name="validateOrderVisibility"/>
+          <include name="validateDeleteAccount"/>
+          <include name="setUp"/>
+          <include name="validateLoginWithValidDetails"/>
+          <include name="validatePlaceOrder"/>
+        </methods>
+      </class> <!-- com.ae.qa.testcases.LoginBeforeCheckoutTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

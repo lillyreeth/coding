@@ -10,6 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 
 import static com.ae.qa.util.TestUtil.EXTRA_EXPLICIT_WAIT;
@@ -51,7 +52,7 @@ public class CartPage extends TestBase {
     public String getCartSubscriptionSuccessMessage(String subs_email) {
         webElementsubscriptionInput.sendKeys(subs_email);
         webElementSubscriptionButton.click();
-        WebDriverWait wait = new WebDriverWait(driver, 50);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10L));
         WebElement message = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'You have been successfully subscribed!')]")));
         System.out.println("Successful message is visible in subscription details as  : " + message.getText());
         return message.getText();

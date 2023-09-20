@@ -1,5 +1,6 @@
 package com.ae.qa.base;
 
+import com.ae.qa.util.MyListenerClass;
 import com.ae.qa.util.TestUtil;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -7,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -21,6 +23,8 @@ import static com.ae.qa.util.TestUtil.*;
 public class TestBase {
     public static WebDriver driver;
     public static Properties prop;
+    public  static EventFiringWebDriver e_driver;
+    //public static MyListenerClass eventListener;
 
 
     // constructor is created becoz when object is created in any class this constructor will invoke first later next methods
@@ -55,10 +59,15 @@ public class TestBase {
             opts.addArguments("-private");
             driver = new FirefoxDriver(opts);
         }
-
             else {
             System.out.println("Invalid browser, please check configuration.properties file");
         }
+
+        EventFiringWebDriver seleniumEventFireDriverObj = new EventFiringWebDriver(driver);
+        MyListenerClass MyListenerObj = new MyListenerClass();
+        seleniumEventFireDriverObj.register(MyListenerObj);
+        driver = seleniumEventFireDriverObj;
+
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().pageLoadTimeout(PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);

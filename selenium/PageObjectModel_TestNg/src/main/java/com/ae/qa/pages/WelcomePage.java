@@ -10,6 +10,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+
 import static com.ae.qa.util.TestUtil.*;
 
 
@@ -85,7 +88,7 @@ public class WelcomePage extends TestBase {
         String subscriptionExpText = null;
         try {
             webElementSubscriptionButton.click();
-            WebDriverWait wait1 = new WebDriverWait(driver, 50);
+            WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(15L));
             WebElement message = wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'You have been successfully subscribed!')]")));
             System.out.println("Successful message is visible in subscription details as  : " + message.getText());
             subscriptionExpText = message.getText();

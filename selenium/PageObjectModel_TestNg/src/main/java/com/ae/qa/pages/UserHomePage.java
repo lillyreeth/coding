@@ -8,6 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
+
 import static com.ae.qa.util.TestUtil.EXPLICIT_WAIT;
 
 public class UserHomePage extends TestBase
@@ -33,7 +35,7 @@ public class UserHomePage extends TestBase
     }
     public String getLoggedInUserName()
     {
-        WebDriverWait wait2= new WebDriverWait(driver, 50);
+        WebDriverWait wait2= new WebDriverWait(driver, Duration.ofSeconds(5L));
         WebElement message = wait2.until(ExpectedConditions.visibilityOf(webElementLoggedInas));
         String LoggedIn=webElementLoggedInas.getText();
         System.out.println(LoggedIn);
